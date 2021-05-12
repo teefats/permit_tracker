@@ -20,7 +20,7 @@
         <th scope="col">Site</th>
         <th scope="col">Area</th>
         <th scope="col">Issue Date</th>
-        </tr>
+        <th scope="col">Expiration Date</th></tr>
     </thead>
         
     
@@ -47,6 +47,9 @@
     </td>
     <td>
         {{ permit.issue_date }}
+    </td>
+    <td>
+        {{ permit.expiration_date }}
     </td>
     </tr>
     {% endfor %}
